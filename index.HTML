@@ -3,21 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus Animes Prediletos</title>
+    <title>Meus Perfil</title>
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <h1>Sejam BemVindes</h1>
-    <p>Animes Prediletos</p>
-    <ul>
-        <br>
-        <li>Youjo Senki</li>
-        <img src="/StorageImg/YoujoSenki.png" >
-        <br><br>
-        <li>No Game No Life</li>
-        <img src="/StorageImg/NGNL.png" alt="Imagem do Anime No Game No Life">
-        <br><br>
-        <li>Hataraku Saibou!!</li>
-        <img src="/StorageImg/HatarakuSaibo.png" alt="Imagem do Anime Hataraku Saibou!">
-    </ul>
+
+    <header>
+        <div id="cabecalho">
+            <div class="li">
+                <label id="CabecalhoHome" class="active">Home</label>
+            </div>
+            <a href="contato.html">
+            <div class="li">
+                <label id="CabecalhoContato" class="inactive"> Contato</label>
+            </div>
+            </a>
+        </div>
+    </header>
+    <main>
+    <div class="InicialHome">
+        <img src="/assets/imgMeu.png" alt="Foto do criador" class="FotoCriador">
+        <h1 class="TituloHome">Sobre Mateus</h1>
+        <p class="textoSobre">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde quam molestias non maxime tempore, optio libero at quasi consequatur dolor delectus ipsam laboriosam labore obcaecati suscipit architecto rerum ullam est!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto in deserunt deleniti animi, voluptatum praesentium perspiciatis est, facere non quam tempore eos, officiis eligendi vel repudiandae. Illo ut veritatis voluptatum.
+        </p>
+    </div>
+    
+    <div class="Video">
+        <h2>Um vídeo que eu postei</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/iKYoSHyRTFY?si=vx29oGgEjao0O3AC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    </main>
 </body>
 </html>
