@@ -3,7 +3,7 @@ body{background-color: rgb(201, 201, 201);}
 #cabecalho {
     color: #fff;
     background-color: black;
-    width: 1250px;
+    width: 95%;
     height: 45px;
     margin: auto;
     display: flex;
@@ -16,30 +16,21 @@ a{
 }
 
 .li {
-    border-right: 1px solid #bbb;
+    border-right: 1px solid #bbb;   
+}
+.li:last-child {
+    border-right: none;
 }
 
-    .li:last-child {
-        border-right: none;
-    }
+#CabecalhoHome, #CabecalhoContato{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    cursor: pointer;
+}
 
-    #CabecalhoHome {
-        display: block;
-        color: #fff;
-        text-align: center;
-        text-decoration: none;
-        padding: 14px 16px;
-        cursor: pointer;
-    }
-    #CabecalhoContato {
-        display: block;
-        color: #fff;
-        text-align: center;
-        text-decoration: none;
-        padding: 14px 16px;
-        cursor: pointer;
-    }
-    .inactive:hover {
+.inactive:hover {
         background-color: dimgray;
     }
 
@@ -48,9 +39,8 @@ a{
 }
 
 main {
-    
     display: block;
-    margin: 5px 25px;
+    margin: 1px 25px;
     align-items: center;
     background-color: #fff;
 }
@@ -81,17 +71,21 @@ main {
 }
 
 .Video{
-    margin: 20px ;
-   text-align: center;
+    margin: 20px;
+    margin-bottom: 1px;
+    text-align: center;
 }
 
 .TitulosContato{
-    margin-left: 25px;
+    margin: 20px;
+    text-align: center;
 }
+
 .formContato {
     background-color: #d4d4d4;
     padding: 30px;
     margin: 30px;
+    height: 275px;
     display: flex;
     flex-direction: column;
     align-items: flex-start; 
@@ -102,11 +96,39 @@ main {
     text-align: normal; 
 }
 
-.textoLocal{
+#nome, #email {
+    width: 100%;
+}
+
+.erros{
+    color: red;
+    font-size: 11px;
+}
+
+.txtEndereco{
     text-align: justify;
-    margin-left: 25px;
+    margin: 5px 25px;
 }
 
 .mapa{
-    padding: 25px;
+    padding-bottom: 10px;
+}
+
+.corpoFormMap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.corpoMap{
+    display: block;
+}
+
+footer{
+    margin: 1px 25px;
+    text-align: center;
+    background-color: white;
+}
+
+.imglikedin{
+    height: 50px;
+    width: 50px;
 }
